@@ -6,7 +6,6 @@ class Artist
   def initialize(name)
     @name = name
     @songs = []
-    @@all << self 
   end
 
   def add_song(song)
@@ -27,7 +26,7 @@ class Artist
       found_artist
     else
       new_artist = self.new(artist_name)
-      #new_artist.save
+      new_artist.save
       new_artist
     end
   end
