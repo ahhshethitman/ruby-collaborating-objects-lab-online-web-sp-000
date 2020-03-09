@@ -22,7 +22,7 @@ class Song
   
   def self.all 
     @all_songs = []
-    @all_songs = Artist.all.song
+    @all_songs = Artist.all.songs
     @all_songs
     
   
