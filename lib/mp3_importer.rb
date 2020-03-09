@@ -15,8 +15,9 @@ class MP3Importer
       if file.includ?("mp3")
         @files << file
       end
-      @files
     end
+      @files
+    
   end
   
   
