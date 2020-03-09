@@ -10,7 +10,7 @@ class MP3Importer
   
   def files
     
-    Dir.entries(path).select {|entry| entry.include?(".mp3")}
+    Dir.entries(path).select {|entry| entry.include?(".mp3")} #returns an array
    #@files = []
    #file = Dir.entries(@path)
    #file.each do |file| 
@@ -24,7 +24,7 @@ class MP3Importer
   
   
   def import
-    files.each {|song| Song.new_by_filename(song)}
+    files.each {|song| Song.new_by_filename(song)} #iterates through the file method acting on the returned array
   end
   
 end 
