@@ -11,14 +11,14 @@ class MP3Importer
   def files
     
     Dir.entries(path).select {|entry| entry.include?(".mp3")
-    @files = []
-    file = Dir.entries(@path)
-    file.each do |file| 
-      if file.include?("mp3")
-        @files << file
-      end
-    end
-      @files
+   #@files = []
+   #file = Dir.entries(@path)
+   #file.each do |file| 
+   #  if file.include?("mp3")
+   #    @files << file
+   #  end
+   #end
+   #  @files
     
   end
   
