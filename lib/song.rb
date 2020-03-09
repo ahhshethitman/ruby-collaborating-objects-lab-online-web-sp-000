@@ -21,5 +21,6 @@ class Song
   
   def self.all 
     all_songs = self
-
+    all_songs
+  end
 end
