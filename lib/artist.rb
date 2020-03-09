@@ -19,6 +19,7 @@ class Artist
 
   def self.all
     @@all #displays the all array
+    binding.pry 
   end
 
   def self.find_or_create_by_name(artist_name)
