@@ -23,6 +23,7 @@ class Song
   def self.all 
     @all_songs = []
     @all_songs = Artist.self.all
+    binding.pry
     @all_songs
     binding.pry
   end
