@@ -9,7 +9,10 @@ class MP3Importer
   end 
   
   def files
-    
+    @files = []
+    file = Dir.entries(@path)
+    file.each do |file| 
+      if file.includ?("mp3")
   end
   
   
