@@ -20,7 +20,6 @@ class Song
   end
   
   def self.all 
-    all_songs = self
-    all_songs
+    Artist.
   end
 end
