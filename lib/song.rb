@@ -20,6 +20,7 @@ class Song
   end
   
   def self.all 
-    
+    all_songs = Artist.save 
+    all_songs
 
 end
