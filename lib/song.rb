@@ -25,6 +25,6 @@ class Song
     @all_songs = Artist.self.all
     binding.pry
     @all_songs
-    binding.pry
+ 
   end
 end
