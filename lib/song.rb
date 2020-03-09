@@ -24,7 +24,7 @@ class Song
     @all_songs = []
     @all_songs = Artist.self.all
     binding.pry
-    @all_songs
+  
  
   end
 end
