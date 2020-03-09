@@ -24,7 +24,7 @@ class MP3Importer
   
   
   def import
-    files.each {|song| Song.new_by_filename(song)} #iterates through the file method acting on the returned array
+    files.each {|song| Song.new_by_filename(song)} #iterates through the file method acting on the                           #returned array and passing in the Song class method new_by_filename.
   end
   
 end 
