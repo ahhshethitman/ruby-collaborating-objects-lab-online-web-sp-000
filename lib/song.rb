@@ -20,6 +20,8 @@ class Song
   end
   
   def self.all 
-    Artist.
+    @all_songs = []
+    @all_songs = Artist.self.all
+    @all_songs
   end
 end
